@@ -13,8 +13,13 @@ const localCards=()=>{
 localCards();
 const AddToDo=()=>{
     const Taskinput=document.querySelector("#input");
-    const AddToDo =Taskinput.value;
-    ToDoItems.push(AddToDo);
+ 
+    ToDoItems.push(Taskinput.value);
+  
+
     Taskinput.value="";
+      // localStorage.setItem("todo",JSON.stringify(AddToDo));
+
+    
     localCards();
 }
