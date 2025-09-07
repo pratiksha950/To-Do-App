@@ -32,6 +32,8 @@ h1{
     align-items: center;
     background-color: rgba(255, 99, 132, 0.1);
     box-shadow: 0 0 14px 5px rgba(255, 107, 129, 1);
+    height: 500px;
+    overflow-y: scroll;
    
 }
 .item{
@@ -61,7 +63,6 @@ h1{
     background-color: rgba(255, 107, 129, 0.3);
     height: 80px;
     gap: 20px;
-    /* justify-content: space-evenly; */
 }
 .add{
     height: 40px;
@@ -88,7 +89,6 @@ h1{
     align-items: center;
     background-color: rgba(255, 99, 132, 0.1);
     box-shadow: 0 0 14px 5px rgba(255, 107, 129, 1);
-   
 }
 
 }
