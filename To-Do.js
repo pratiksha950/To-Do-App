@@ -14,12 +14,10 @@ localCards();
 const AddToDo=()=>{
     const Taskinput=document.querySelector("#input");
  
-    ToDoItems.push(Taskinput.value);
-  
-
-    Taskinput.value="";
-      // localStorage.setItem("todo",JSON.stringify(AddToDo));
-
-    
-    localCards();
-}
+    if(newTodo.trim()!=""){
+            todoItems.push(newTodo);
+            taskInput.value="";
+            localStorage.setItem("todoItems",JSON.stringify(todoItems));
+            loadCards();
+           }
+        }
